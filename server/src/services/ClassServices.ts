@@ -19,7 +19,7 @@ interface CreateRequest {
 
 export default {
   async index(subject: string, week_day: string, time: string) {
-    return ClassRepository.index(
+    return await ClassRepository.index(
       subject,
       Number(week_day),
       convertHourToMinutes(time)

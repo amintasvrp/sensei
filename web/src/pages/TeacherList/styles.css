@@ -38,7 +38,8 @@
 }
 
 #search-teachers button:disabled {
-  background: var(--color-secundary-dark);
+  background: var(--color-disabled) !important;
+  cursor: default;
 }
 
 #page-teacher-list main {
@@ -62,6 +63,14 @@
   #search-teachers .input-block + .input-block,
   #search-teachers .select-block + .select-block {
     margin-top: 0;
+  }
+
+  #search-teachers .input-block {
+    width: 11.5rem;
+  }
+
+  #search-teachers .select-block {
+    width: 19rem;
   }
 
   #page-teacher-list main {

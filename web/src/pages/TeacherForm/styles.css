@@ -97,6 +97,11 @@
   margin-top: 3.2rem;
 }
 
+#page-teacher-form main footer button:disabled {
+  background: var(--color-disabled) !important;
+  cursor: default;
+}
+
 #page-teacher-form main footer button:hover {
   background: var(--color-secundary-dark);
 }

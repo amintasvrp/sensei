@@ -38,14 +38,16 @@
   font: 700 3.6rem Archivo;
   line-height: 4.2rem;
   color: var(--color-title-in-primary);
+  margin-left: 7%;
 }
 
 .page-header .header-content p {
-  max-width: 30rem;
+  max-width: 50rem;
   font-size: 1.6rem;
   line-height: 2.6rem;
   color: var(--color-text-in-primary);
   margin-top: 2.4rem;
+  margin-left: 17%;
 }
 
 @media (min-width: 700px) {

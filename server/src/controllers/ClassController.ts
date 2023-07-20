@@ -15,7 +15,7 @@ export default class ClassController {
 
     return RestResponse.Success(
       response,
-      ClassServices.index(subject, week_day, time)
+      await ClassServices.index(subject, week_day, time)
     );
   }
 

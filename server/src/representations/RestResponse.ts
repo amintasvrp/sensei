@@ -15,9 +15,9 @@ export default {
     });
   },
   Created(response: Response, body?: any) {
-    return !body ? response.status(201) : response.status(201).json(body);
+    return this.Success(response, body);
   },
-  Success(response: Response, body: any) {
+  Success(response: Response, body?: any) {
     return response.status(200).json(body);
   },
 };

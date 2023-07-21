@@ -227,7 +227,7 @@ function TeacherForm() {
               disabled={!(name && avatar && whatsapp && bio && subject && cost)}
               type="submit"
             >
-              Salvar cadastro
+              Cadastrar sensei
             </button>
           </footer>
         </form>

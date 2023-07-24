@@ -7,7 +7,8 @@ const styles = StyleSheet.create({
   },
 
   teacherList: {
-    marginTop: 40,
+    marginTop: 10,
+    marginBottom: 0,
   },
 
   searchForm: {
@@ -41,13 +42,34 @@ const styles = StyleSheet.create({
 
   select: {
     height: 54,
+    width: "100%",
     backgroundColor: "#FFF",
     borderRadius: 8,
-    justifyContent: "center",
-    paddingHorizontal: 16,
+    paddingHorizontal: 8,
     marginTop: 4,
     marginBottom: 16,
-    paddingRight: 30,
+  },
+
+  selectPlaceholder: {
+    textAlign: "left",
+    fontSize: 14,
+  },
+
+  selectDropdown: {
+    height: 200,
+    borderRadius: 8,
+    padding: 0,
+    marginTop: -35,
+  },
+
+  selectDropdownRow: {
+    textAlign: "left",
+    fontSize: 14,
+    marginLeft: 15,
+  },
+
+  timeModal: {
+    marginBottom: 1000,
   },
 
   submitButton: {

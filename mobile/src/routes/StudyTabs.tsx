@@ -23,8 +23,8 @@ function StudyTabs() {
         },
         tabBarIconStyle: {
           flex: 0,
-          width: 20,
-          height: 20,
+          width: 23,
+          height: 23,
         },
         tabBarItemStyle: {
           flexDirection: "row",
@@ -43,7 +43,7 @@ function StudyTabs() {
         name="TeacherList"
         component={TeacherList}
         options={{
-          tabBarLabel: "Proffys",
+          tabBarLabel: "Senseis",
           tabBarIcon: ({ color, size, focused }) => {
             return (
               <Ionicons

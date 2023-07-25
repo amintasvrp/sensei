@@ -12,7 +12,7 @@
   <img alt="Insomnia" src="https://img.shields.io/badge/-Insomnia-5849BE?style=for-the-badge&logo=insomnia&logoColor=white" />
 </p>
 
-Sensei is a web/mobile application that brings together teachers willing to meet the needs of students.
+Sensei is an web/mobile application that brings together teachers willing to meet the needs of students.
 
 ## Demo
 

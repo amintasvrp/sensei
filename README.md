@@ -38,7 +38,7 @@ Sensei is an web/mobile application that brings together teachers willing to mee
 1. Make a clone:
 
 ```sh
-   git clone https://github.com/amintasvrp/be-the-hero.git
+   git clone https://github.com/amintasvrp/sensei.git
 ```
 
 2. Running the Application:
